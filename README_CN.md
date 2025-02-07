@@ -18,21 +18,11 @@
 在 MacOS/Linux 中，请打开终端；在 Windows 中，请打开 Git Bash(如果没有GitBash,请选择方式3手动下载，不支持wsl)。然后执行以下命令来安装：
 > 部分电脑可能会误报毒，需要关闭杀毒软件/电脑管家/安全防护再进行
 
-方式1：通过  脚本
+通过脚本安装cursor-vip：
 ```bash
 bash <(curl -Lk https://gitee.com/kingparks/cursor-vip/releases/download/latest/ic.sh) 0a59c83629454a18818c7c4ef831a2cb
 ```
 
-方式2：手动下载二进制文件
-> 从 [release](https://github.com/kingparks/cursor-vip/releases) 页下载对应操作系统的二进制文件
-```shell
-# MaxOS/Linux
-sudo mv cursor-vip_xx_xxx /usr/local/bin/cursor-vip;
-chmod +x /usr/local/bin/cursor-vip;
-cursor-vip githubReadme;
-# Windows
-# 双击 cursor-vip_xx_xxx.exe
-```
 
 启动 cursor-vip：
 ```bash
