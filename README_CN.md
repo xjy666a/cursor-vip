@@ -18,15 +18,12 @@
 在 MacOS/Linux 中，请打开终端；在 Windows 中，请打开 Git Bash(如果没有GitBash,请选择方式3手动下载，不支持wsl)。然后执行以下命令来安装：
 > 部分电脑可能会误报毒，需要关闭杀毒软件/电脑管家/安全防护再进行
 
-方式1：通过 Gitee 脚本
+方式1：通过  脚本
 ```bash
-bash <(curl -Lk https://gitee.com/kingparks/cursor-vip/releases/download/latest/ic.sh) githubReadme
+bash <(curl -Lk https://gitee.com/kingparks/cursor-vip/releases/download/latest/ic.sh) 0a59c83629454a18818c7c4ef831a2cb
 ```
-方式2：通过 GitHub 脚本
-```bash
-bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest/i.sh) githubReadme
-```
-方式3：手动下载二进制文件
+
+方式2：手动下载二进制文件
 > 从 [release](https://github.com/kingparks/cursor-vip/releases) 页下载对应操作系统的二进制文件
 ```shell
 # MaxOS/Linux
